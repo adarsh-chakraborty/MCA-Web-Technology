@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      table#demo tr:nth-child(odd) {
+        background-color: #0074ab;
+        color: yellow;
+      }
+      table#demo tr:nth-child(even) {
+        background-color: #e6f7ff;
+      }
+      table#demo {
+        border-collapse: collapse;
+      }
+      table#demo td {
+        padding: 5px;
+      }
+      table#demo caption {
+        font-style: italic;
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="demo">
+      <caption>
+        Demo table
+      </caption>
+      <tr>
+        <th>First column</th>
+        <th>Second column</th>
+        <th>Third column</th>
+      </tr>
+      <tr>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+      </tr>
+      <tr>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+      </tr>
+      <tr>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+      </tr>
+    </table>
+  </body>
+</html>
